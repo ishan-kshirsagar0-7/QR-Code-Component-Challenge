@@ -1,0 +1,39 @@
+body{
+    background-color: #d5e1ef;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(/Outfit/static/Outfit-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Outflite;
+    src: url(/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+#white{
+    background-color: white;
+    margin: 120px auto;
+    width: 250px;
+    padding: 13px;
+    padding-bottom: 21px;
+    border-radius: 16px;
+    font-family: Outfit;
+    font-size: 19px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    box-shadow: 10px 10px 54px -6px rgba(0, 0, 0, 0.20);
+}
+
+#white img{
+    border-radius: 9px;
+}
+
+#down{
+    font-family: Outflite;
+    font-size: 13px;
+    color: hsl(220, 15%, 55%);
+    padding: 0px 13px;
+    text-align: center;
+}
